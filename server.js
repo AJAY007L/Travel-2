@@ -25,6 +25,11 @@ app.get("/Harkidun",function (req,res) {
 app.get("/Ruinsara",function (req,res) {
   res.sendFile(__dirname+"/ruinsara.html")
 })
+
+app.get("/Baraadsar",function (req,res) {
+  res.sendFile(__dirname+"/baraadsar.html")
+})
+
 app.get("/contact",function (req,res) {
     res.sendFile(__dirname+"/contact.html")
 })
